@@ -1,0 +1,9 @@
+//top menu style
+.top-menu ul{
+    float:right;
+    & li{
+        float:right;
+        list-style-type: none;
+        display: block;
+    }
+}

@@ -1,0 +1,22 @@
+@import "admin/admin.scss";
+@import "login/view/login.scss";
+@import "login/login.scss";
+@import "bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+@import "common/view/menu/menu.scss";
+@import "register/view/register.scss";
+@import "register/register.scss";
+@import "home/view/home.scss";
+@import "home/home.scss";
+.right-text{
+    text-align: right;  
+}
+.dir-rtl{ 
+    direction: rtl; 
+}
+//@import "bower_components/bootstrap/less/theme.less";
+
+/* Component sass */
+/* Add Component sass Above */
+
+/* Required for Angular UI Bootstrap */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }

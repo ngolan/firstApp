@@ -1,0 +1,41 @@
+{
+  "generator-cg-angular": {
+    "uirouter": true,
+    "partialDirectory": "partial/",
+    "modalDirectory": "partial/",
+    "directiveDirectory": "directive/",
+    "filterDirectory": "filter/",
+    "serviceDirectory": "service/",
+    "inject": {
+      "js": {
+        "file": "index.html",
+        "marker": "<!-- Add New Component JS Above -->",
+        "template": "<script src=\"<%= filename %>\"></script>"
+      },
+      "scss": {
+        "relativeToModule": true,
+        "file": "<%= module %>.scss",
+        "marker": "/* Add Component LESS Above */",
+        "template": "@import \"<%= filename %>\";"
+      }
+    },
+    "modules": [
+      {
+        "name": "home",
+        "file": "home\\home.js"
+      },
+      {
+        "name": "register",
+        "file": "register\\register.js"
+      },
+      {
+        "name": "login",
+        "file": "login\\login.js"
+      },
+      {
+        "name": "admin",
+        "file": "admin\\admin.js"
+      }
+    ]
+  }
+}

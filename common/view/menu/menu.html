@@ -1,0 +1,8 @@
+<div class="col-md-12 top-menu " ng-controller="MenuCtrl">
+
+<ul class="nav nav-pills">
+                <li ng-repeat="dataMenu in menu">
+                    <a ui-sref="{{dataMenu.url}}"> {{dataMenu.link}}</a>
+                </li>
+            </ul>
+</div>

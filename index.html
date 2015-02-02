@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-app="latet">
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <!-- Livereload script for development only (stripped during dist build) -->
+  <script src="http://localhost:35729/livereload.js" data-concat="false"></script>
+
+  
+  <!-- bower:js -->
+  <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+  <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <!-- endbower -->
+
+  
+  <!-- Main App JS -->
+  
+  <script src="app.js"></script>
+  <script src="service/machsan/machsan.js"></script>
+  <script src="home/home.js"></script>
+  <script src="home/view/home.js"></script>
+   
+  <script src="register/register.js"></script>
+  <script src="register/view/register.js"></script>
+  <script src="common/view/menu/menu.js"></script>
+ 
+  <script src="login/login.js"></script>
+  <script src="login/view/login.js"></script>
+  <script src="service/login/loginService.js"></script>
+  <script src="common/value/value.js"></script>
+  <script src="admin/admin.js"></script>
+  <script src="admin/view/admin.js"></script>
+  <script src="admin/manageDepot/manageDepot.js"></script>
+  <!-- Add New Component JS Above -->
+
+  <div>
+    <div id="content" class="container">
+      <div class="row">
+       <div ui-view="menu"></div>
+<div ui-view="body"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

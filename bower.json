@@ -1,0 +1,19 @@
+{
+  "name": "latet",
+  "version": "0.0.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.0",
+    "bootstrap-sass-official": "~3.1",
+    "angular": "~1.2",
+    "angular-ui-router": "~0.2",
+    "angular-resource": "~1.2",
+    "angular-cookies": "~1.2",
+    "angular-bootstrap": "~0.10"
+  }
+}
